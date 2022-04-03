@@ -18,6 +18,7 @@
 
 # bundle
 ## dein
+https://github.com/Shougo/dein.vim
 ### インストール
 *. インストール先ディレクトリは任意。当方に合わせる設定を記載する。
 1. `mkdir -p ~/bundle`
