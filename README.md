@@ -21,7 +21,7 @@
 https://github.com/Shougo/dein.vim
 ### インストール
 *. インストール先ディレクトリは任意。当方に合わせる設定を記載する。
-1. sh -c "$(curl -fsSL https://raw.githubusercontent.com/Shougo/dein-installer.vim/master/installer.sh)"
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/Shougo/dein-installer.vim/master/installer.sh)"`
 
 # ctags
 ## universal-ctags
