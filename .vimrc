@@ -5,12 +5,12 @@ if &compatible
 endif
 
 " dein.vimディレクトリをruntimepathに追加する
-set runtimepath+=~/bundles/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/./repos/github.com/Shougo/dein.vim
 
 " dein.vimで管理
-if dein#load_state('~/bundles')
-    call dein#begin('~/bundles')
-    call dein#add('~/bundles/repos/github.com/Shougo/dein.vim')
+if dein#load_state('~/.cache/dein/.')
+    call dein#begin('~/.cache/dein/.')
+    call dein#add('~/.cache/dein/./repos/github.com/Shougo/dein.vim')
 
     " --- プラグイン追加 ここから ---- "
     " 好きなプラグインを dein#add() 追加していく
